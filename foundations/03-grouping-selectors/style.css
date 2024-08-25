@@ -1,0 +1,13 @@
+.firstel{
+    background-color: #000000;
+    color: #ffffff;
+}
+.secondel{
+    background-color: hsl(60, 100%, 50%);
+}
+button {
+    font-size: 28px;
+    font-family: 'Times New Roman', Helvetica, sans-serif;
+
+
+}
