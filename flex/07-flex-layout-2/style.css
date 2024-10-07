@@ -6,15 +6,27 @@ body {
 }
 
 .header {
+  display: flex;
   height: 72px;
   background: darkmagenta;
   color: white;
+  padding-left: 2px;
+  font-size: 30px;
+  
+  
 }
 
 .footer {
-  height: 72px;
+  display: flex;
   background: #eee;
   color: darkmagenta;
+  position: absolute;
+  bottom:0%;
+  left: 0%;
+  justify-content: center;
+  min-width: 100%;
+  padding: 30px;px;
+
 }
 
 .sidebar {
@@ -22,9 +34,9 @@ body {
   background: royalblue;
   box-sizing: border-box;
   height:800px;
-  padding-right: 100px;
   flex-wrap: nowrap;
   flex-shrink: 0;
+  margin-right: 0%;
   
 }
 
@@ -39,6 +51,7 @@ body {
 
 .nohead,.noheadd{
   display: flex;
+  justify-content: space-around;
 }
 
 .cardo{
@@ -46,6 +59,7 @@ body {
   flex-wrap: wrap;
  justify-content: center;
   gap: 5em;
+  margin-left: 0%;
 }
 .noohead{
   display:flex ;
